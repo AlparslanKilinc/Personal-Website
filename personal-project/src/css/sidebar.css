@@ -60,7 +60,7 @@ a{
     text-decoration: none;
     color: #f0f3f6;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 800px) {
   .sidebar{
     margin-top: 10px;
     align-items: center;

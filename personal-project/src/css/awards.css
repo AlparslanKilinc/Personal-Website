@@ -29,7 +29,7 @@
     width: 100px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 800px) {
 .award-box{
     flex-wrap: wrap;
     margin: 0.5rem;
