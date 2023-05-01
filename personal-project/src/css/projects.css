@@ -1,3 +1,43 @@
-.projects{
-   
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
+.title{
+    font-style: italic;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-gap: 1rem;
+    row-gap: 2rem;
+    padding: 1rem;
+    font-size: 14px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid #f0f3f6;
+    color: #f0f3f6;
+    padding: 1rem;
+    gap: 5px;
+}
+
+.project-title{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 12px;
+}
+.project-text{
+    color: #6caef2;
+}
+
+.box-options{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
