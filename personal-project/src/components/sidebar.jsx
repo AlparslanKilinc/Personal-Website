@@ -12,7 +12,7 @@ function Sidebar() {
 
     return (
       <div className='sidebar'>
-        <Avatar sx={style} alt="Profile Pic" src="../src/assets/profile_pic.jpg"/>
+        <Avatar sx={style} alt="Profile Pic" src="src/assets/profile_pic.jpg"/>
         <div className='personal-info'>
                 <h1>Alparslan Kilinc</h1>
                 <div className='text-info'>
