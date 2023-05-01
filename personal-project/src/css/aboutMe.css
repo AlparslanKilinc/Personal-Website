@@ -25,9 +25,13 @@
     align-items: flex-start;
     font-style: italic;
 }
+.flag-img{
+    width: 110px;
+    height: 80px;
+}
 .about-img{
     width: 100px;
-    height: 70px;
+    height: 85px;
 }
 .Skills{
     display: flex;
