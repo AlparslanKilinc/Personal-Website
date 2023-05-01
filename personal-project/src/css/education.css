@@ -1,2 +1,29 @@
 .education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+
+}
+.uni-box{
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 3rem;
+    border: 2px solid #f0f3f6;
+    border-radius: 4px;
+}
+.uni-title{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.uni-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-style: italic;
+}
+img{
+    height: 100px;
+    width: 100px;
 }
