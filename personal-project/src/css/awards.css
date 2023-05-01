@@ -9,7 +9,8 @@
     gap: 3rem;
     border: 2px solid #f0f3f6;
     border-radius: 4px;
-    align-items: flex-start;
+    align-items: center;
+    
 }
 .award-title{
     margin-bottom: 10px;
@@ -20,6 +21,12 @@
     flex-direction: column;
     align-items: flex-start;
     font-style: italic;
+    text-align:left;
+    font-size: 14px;
+}
+.award-img{
+    height: 100px;
+    width: 100px;
 }
 
 @media screen and (max-width: 425px) {

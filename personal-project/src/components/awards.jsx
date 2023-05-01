@@ -12,9 +12,10 @@ function Awards() {
           <div className='award-info'>
             <h1 className='award-title'>National Science Foundation Scholarship</h1>
             <p>Aug 2020</p>
-            <p>The NSF STEM Scholarship program at Suffolk County Community</p>
-            <p> College provides a unique, educational enrichment environment for students pursuing</p> 
-            <p>careers in science technology, engineering, and mathematics fields</p>
+            <p>The NSF STEM Scholarship program at Suffolk County Community 
+              College provides a unique, educational enrichment environment for students pursuing
+              careers in science technology, engineering, and mathematics fields
+            </p>
           </div>
         </div>
         <div className='award-box'>
