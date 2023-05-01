@@ -5,9 +5,7 @@ import '../css/reset.css'
 function Projects() {
   return (
     <div className='main'>
-      <p className='title'>Projects</p>
       <div className='projects'>
-
         <div className="box">
           <div className='project-title'>
               <i className="material-icons-outlined">star_outline</i>

@@ -17,7 +17,7 @@ function App() {
     <>
       <Sidebar/>
       <Navbar/>
-      <Divider sx={style}/>
+      <Divider className='divider' sx={style}/>
     </>
   )
 }

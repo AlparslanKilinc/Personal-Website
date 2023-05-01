@@ -21,3 +21,26 @@
     align-items: flex-start;
     font-style: italic;
 }
+
+@media screen and (max-width: 425px) {
+.award-box{
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.award-info{
+    font-size: 12px; 
+    text-align:left;
+    justify-content: center;
+
+}
+.award-title{
+    font-size: 16px;
+    font-weight: 600;
+}
+.award-img{
+    width: 70px;
+    height: 70px;
+}
+}

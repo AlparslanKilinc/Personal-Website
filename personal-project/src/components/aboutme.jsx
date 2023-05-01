@@ -5,11 +5,10 @@ import '../css/reset.css'
 function AboutMe() {
   return (
     <div className='aboutMe'>
-      <p className='title'>About Me</p>
         <div className='about-box'>
           <img className='flag-img' src="\src\assets\turkiye.png" alt="Turkiye Flag"/>
           <div className='box-info'>
-            <h1 className='uni-title'>My Origins</h1>
+            <h1 className='box-title'>My Origins</h1>
               <p> I am from Turkiye,Istanbul.Istanbul is the city of cats where i grew up with love for cats.</p>
               <p> After moving to United States I played Tennis and Soccer Throughout High-School. </p>
               <p> I always loved Art and making things beautiful which lead me to get into Front-End Development.</p>
@@ -27,18 +26,17 @@ function AboutMe() {
             <p>In the end I ended up at Stony Brook University where I will be graduating soon.</p>
           </div>
         </div>
+
         <p className='title'>Skills</p>
-        <div className='Skills'>
-          <div className='about-box'>
-            <i class="fa-brands fa-java"></i>
-            <i class="fa-brands fa-python"></i>
-            <i class="fa-brands fa-react"></i>
-            <i class="fa-brands fa-node"></i>
-            <i class="fa-brands fa-square-js"></i>
-            <i class="fa-brands fa-html5"></i>
-            <i class="fa-brands fa-css3-alt"></i>
-            <i class="fa-brands fa-figma"></i>
-          </div>
+        <div className='about-box'>
+          <i class="fa-brands fa-java"></i>
+          <i class="fa-brands fa-python"></i>
+          <i class="fa-brands fa-react"></i>
+          <i class="fa-brands fa-node"></i>
+          <i class="fa-brands fa-square-js"></i>
+          <i class="fa-brands fa-html5"></i>
+          <i class="fa-brands fa-css3-alt"></i>
+          <i class="fa-brands fa-figma"></i>   
         </div>
      
     </div>

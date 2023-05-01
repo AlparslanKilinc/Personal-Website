@@ -16,9 +16,8 @@ function Sidebar() {
         <div className='personal-info'>
                 <h1>Alparslan Kilinc</h1>
                 <div className='text-info'>
-                    <p >Stony Brook University,</p>
-                    <p> B.S. Computer Science.</p>
-                    <p> Software Development.</p>
+                    <p>Stony Brook University</p>
+                    <p>Amazon SDE Intern</p>
                 </div>
             <ul className='contact-info'>
                 <li style={{display:'flex',gap:'5px',alignItems:'center'}}>

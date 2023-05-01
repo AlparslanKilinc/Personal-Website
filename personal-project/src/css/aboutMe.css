@@ -4,7 +4,6 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
-
 }
 .about-box{
     display: flex;
@@ -24,6 +23,7 @@
     flex-direction: column;
     align-items: flex-start;
     font-style: italic;
+    text-align:left;
 }
 .flag-img{
     width: 110px;
@@ -35,5 +35,31 @@
 }
 .Skills{
     display: flex;
-    
+}
+
+@media screen and (max-width: 425px) {
+.flag-img{
+    width: 70px;
+    height: 50px;
+}
+.about-box{
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.about-img{
+    width: 50px;
+    height: 50px;
+}
+.box-info{
+    font-size: 12px; 
+    text-align:left;
+    justify-content: center;
+
+}
+.box-title{
+    font-size: 16px;
+    font-weight: 600;
+}
 }
