@@ -69,6 +69,7 @@ function Navbar() {
           </button>
         </li>
         <div className='content'>
+          {Select === "Projects" ? 
             <div className='intro'>
                 <p style={{fontSize:'12px'}}>AlparslanKilinc/ README.md</p>
                 <p  style={{fontSize:'16px'}}>
@@ -79,6 +80,7 @@ function Navbar() {
                   Please feel free to reach out to me if you have any opportunities or would like to connect!
                 </p>
             </div>
+            : "" }
             {Content}
         </div>
       </div>

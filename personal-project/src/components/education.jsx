@@ -10,7 +10,7 @@ function Education() {
         <div className='uni-box'>
           <img src={sbu} alt="Stony Brook University Logo"/>
           <div className='uni-info'>
-            <h1 className='uni-title'>Stony Brook University</h1>
+            <p className='uni-title'>Stony Brook University</p>
             <p>Major: Computer Science</p>
             <p>GPA:3.6</p>
           </div>
