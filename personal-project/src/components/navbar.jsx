@@ -1,4 +1,5 @@
 import '../css/navbar.css'
+import '../css/reset.css'
 import React, { useContext, useEffect,useState } from 'react'
 import Projects from '../components/projects.jsx';
 import Education from '../components/education.jsx';
@@ -57,7 +58,7 @@ function Navbar() {
           className='nav-button'
           style={{borderBottom: Select==="About Me" ? '3px solid #ff967d': 'none'}}>
             <i className="material-icons-outlined">person</i>
-            About Me
+            About
           </button>
 
           <button 
@@ -69,7 +70,7 @@ function Navbar() {
           </button>
         </li>
         <div className='content'>
-          {Select === "Projects" ? 
+        {Select === "Projects" || Select === "Education" ? 
             <div className='intro'>
                 <p style={{fontSize:'12px'}}>AlparslanKilinc/ README.md</p>
                 <p  style={{fontSize:'16px'}}>
@@ -80,7 +81,7 @@ function Navbar() {
                   Please feel free to reach out to me if you have any opportunities or would like to connect!
                 </p>
             </div>
-            : "" }
+              : "" }
             {Content}
         </div>
       </div>

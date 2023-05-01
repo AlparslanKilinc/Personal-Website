@@ -4,12 +4,12 @@
     gap: 3rem;
     margin-top: 3rem;
     flex: 0.5;
+    
 }
 .nav-list{
     display: flex;
     align-items: center;
     gap: 1rem;
-    width: 100%;
 }
 .nav-button{
   display: flex;

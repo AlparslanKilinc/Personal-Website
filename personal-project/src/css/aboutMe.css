@@ -16,7 +16,7 @@
 }
 .box-title{
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 20px;
 }
 .box-info{
     display: flex;
@@ -24,14 +24,15 @@
     align-items: flex-start;
     font-style: italic;
     text-align:left;
+    font-size: 14px;
 }
 .flag-img{
-    width: 110px;
-    height: 80px;
+    width: 70px;
+    height: 50px;
 }
 .about-img{
-    width: 100px;
-    height: 85px;
+    width: 70px;
+    height: 50px;
 }
 .Skills{
     display: flex;
