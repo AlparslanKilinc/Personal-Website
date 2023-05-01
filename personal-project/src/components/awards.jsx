@@ -1,12 +1,14 @@
 import '../css/awards.css'
 import '../css/reset.css'
+import nsf from '../assets/nsf.png'
+import suffolk from '../assets/suffolk.png'
 
 
 function Awards() {
   return (
     <div className='awards'>
         <div className='award-box'>
-          <img className='award-img' src="./src/assets/nsf.png" alt="National Science Foundation Logo"/>
+          <img className='award-img' src={nsf} alt="National Science Foundation Logo"/>
           <div className='award-info'>
             <h1 className='award-title'>National Science Foundation Scholarship</h1>
             <p>Aug 2020</p>
@@ -16,7 +18,7 @@ function Awards() {
           </div>
         </div>
         <div className='award-box'>
-          <img className='award-img' src="./src/assets/suffolk.png" alt="Suffolk Logo"/>
+          <img className='award-img' src={suffolk} alt="Suffolk Logo"/>
           <div className='award-info'>
             <h1 className='award-title'>Dr. Frey Family Foundation Scholarship</h1>
             <p>Dec 2021</p>

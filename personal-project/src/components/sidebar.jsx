@@ -2,6 +2,8 @@ import '../css/sidebar.css'
 import '../css/reset.css'
 import React, { useContext, useEffect,useState } from 'react'
 import Avatar from '@mui/material/Avatar';
+import profile from '../assets/profile_pic.jpg'
+import resume from '../assets/Kilinc_Resume.pdf'
 
 function Sidebar() {
     const style = {
@@ -12,7 +14,7 @@ function Sidebar() {
 
     return (
       <div className='sidebar'>
-        <Avatar sx={style} alt="Profile Pic" src="src/assets/profile_pic.jpg"/>
+        <Avatar sx={style} alt="Profile Pic" src={profile}/>
         <div className='personal-info'>
                 <h1>Alparslan Kilinc</h1>
                 <div className='text-info'>
@@ -30,7 +32,7 @@ function Sidebar() {
                 </li>
                 <li style={{display:'flex',gap:'5px',alignItems:'center'}}>
                     <i className="material-icons-outlined">file_open</i>
-                    <a href="./src/assets/Kilinc_Resume.pdf" target="_blank">Resume</a>
+                    <a href={resume} target="_blank">Resume</a>
                 </li>
                 <li style={{display:'flex',gap:'5px',alignItems:'center'}}>
                     <i className="material-icons-outlined">email</i>
