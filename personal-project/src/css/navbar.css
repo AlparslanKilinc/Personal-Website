@@ -21,7 +21,8 @@
   font-size: 1em;
   font-weight: 500;
   cursor: pointer;
-  transition: border-color 0.25s
+  transition: border-color 0.25s;
+  color: #f0f3f6;
 }
 .material-icons-outlined{
     margin-bottom: 5px;

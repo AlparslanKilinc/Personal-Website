@@ -58,7 +58,7 @@ a{
     -moz-appearance:button;
     appearance: none;
     text-decoration: none;
-    color: initial;
+    color: #f0f3f6;
 }
 @media screen and (max-width: 425px) {
   .sidebar{
