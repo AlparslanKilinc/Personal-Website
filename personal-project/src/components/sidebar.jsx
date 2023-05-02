@@ -18,7 +18,7 @@ function Sidebar() {
         <div className='personal-info'>
                 <h1>Alparslan Kilinc</h1>
                 <div className='text-info'>
-                    <p>Stony Brook University</p>
+                    <p>Software Engineer</p>
                     <p>Amazon SDE Intern</p>
                 </div>
             <ul className='contact-info'>
