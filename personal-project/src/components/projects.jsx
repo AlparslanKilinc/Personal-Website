@@ -18,6 +18,17 @@ function Projects() {
               </a>
           </div>
         </div>
+        
+        <div className="box">
+          <div className='project-title'>
+              <i className="material-icons-outlined">star_outline</i>
+              <h3 className='project-text'>Pixel Buddy</h3>
+          </div>
+          <p>Robotics project with a face.</p>
+          <div className="box-options">
+            <a href="https://github.com/AlparslanKilinc/Pixel-Buddy"><i className="fa-brands fa-github"></i></a>
+          </div>
+        </div>
 
         <div className="box">
           <div className='project-title'>
@@ -35,19 +46,7 @@ function Projects() {
         <div className="box">
           <div className='project-title'>
               <i className="material-icons-outlined">star_outline</i>
-              <h3 className='project-text'>Library</h3>
-          </div>
-          <p>Keeps track of the books you have read and are in the progress of reading. 
-            The website gets information about the books by collecting data from users via the form and then creates a library of the data.</p>
-            <div className="box-options">
-              <a href="https://github.com/AlparslanKilinc/Library" target="_blank"><i className="fa-brands fa-github"></i></a>
-              <a href="https://alparslankilinc.github.io/Library/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
-            </div>
-        </div>
-        <div className="box">
-          <div className='project-title'>
-              <i className="material-icons-outlined">star_outline</i>
-              <h3 className='project-text'>Pixel-Sketch</h3>
+              <h3 className='project-text'>Pixel Sketch</h3>
           </div>
           <p>Sketching website.You are able to click and drag to draw on the grid, giving you full ability to draw as you please.</p>
           <div className="box-options">
@@ -55,6 +54,19 @@ function Projects() {
             <a href="https://alparslankilinc.github.io/Pixel-Sketch/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
           </div>
         </div>
+
+        <div className="box">
+          <div className='project-title'>
+              <i className="material-icons-outlined">star_outline</i>
+              <h3 className='project-text'>Library</h3>
+          </div>
+          <p>Keeps track of the books you have read and are in the progress of reading.</p>
+            <div className="box-options">
+              <a href="https://github.com/AlparslanKilinc/Library" target="_blank"><i className="fa-brands fa-github"></i></a>
+              <a href="https://alparslankilinc.github.io/Library/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
+            </div>
+        </div>
+
         <div className="box">
           <div className='project-title'>
               <i className="material-icons-outlined">star_outline</i>
@@ -66,17 +78,7 @@ function Projects() {
             <a href="https://alparslankilinc.github.io/Web-Apple-Calculator/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
           </div>
         </div>
-        <div className="box">
-          <div className='project-title'>
-              <i className="material-icons-outlined">star_outline</i>
-              <h3 className='project-text'>Rock Paper Scissors Game</h3>
-          </div>
-          <p>First To 5 Wins, Includes Rematch Capability.</p>
-          <div className="box-options">
-            <a href="https://github.com/AlparslanKilinc/Rock-Paper-Scissors"><i className="fa-brands fa-github"></i></a>
-            <a href="https://alparslankilinc.github.io/Rock-Paper-Scissors/"><i className="material-icons-outlined">visibility</i></a>
-          </div>
-        </div>
+
       </div>
     </div>
   )

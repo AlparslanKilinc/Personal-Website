@@ -9,7 +9,7 @@
 
 .projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     grid-gap: 1rem;
     row-gap: 2rem;
     padding: 1rem;
@@ -18,11 +18,11 @@
 .box{
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     border-radius: 5px;
     border: 1px solid #f0f3f6;
     color: #f0f3f6;
     padding: 1rem;
-    gap: 5px;
     text-align: left;
 }
 
