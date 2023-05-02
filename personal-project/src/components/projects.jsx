@@ -70,12 +70,12 @@ function Projects() {
         <div className="box">
           <div className='project-title'>
               <i className="material-icons-outlined">star_outline</i>
-              <h3 className='project-text'>Web Apple Calculator</h3>
+              <h3 className='project-text'>Calculator</h3>
           </div>
           <p>Calculator That Mimics The Capabilities of Apple Mobile Calculator.</p>
           <div className="box-options">
-            <a href="https://github.com/AlparslanKilinc/Web-Apple-Calculator" target="_blank"><i className="fa-brands fa-github"></i></a>
-            <a href="https://alparslankilinc.github.io/Web-Apple-Calculator/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
+            <a href="https://github.com/AlparslanKilinc/Calculator" target="_blank"><i className="fa-brands fa-github"></i></a>
+            <a href="https://alparslankilinc.github.io/Calculator/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
           </div>
         </div>
 
