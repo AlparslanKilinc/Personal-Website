@@ -19,12 +19,11 @@ function Sidebar() {
                 <h1>Alparslan Kilinc</h1>
                 <div className='text-info'>
                     <p>Software Engineer</p>
-                    <p>Amazon SDE Intern</p>
                 </div>
             <ul className='contact-info'>
                 <li style={{display:'flex',gap:'5px',alignItems:'center'}}>
                     <i className="material-icons-outlined">location_on</i>
-                    <p>New York City, New York</p>
+                    <p>Mattituck, New York</p>
                 </li>
                 <li style={{display:'flex',gap:'5px',alignItems:'center'}}>
                     <i className="fa-brands fa-linkedin" style={{marginLeft:'5px'}}></i>

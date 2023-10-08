@@ -11,10 +11,9 @@ function Awards() {
           <img className='award-img' src={nsf} alt="National Science Foundation Logo"/>
           <div className='award-info'>
             <h1 className='award-title'>National Science Foundation Scholarship</h1>
-            <p>Aug 2020</p>
-            <p>The NSF STEM Scholarship program at Suffolk County Community 
-              College provides a unique, educational enrichment environment for students pursuing
-              careers in science technology, engineering, and mathematics fields
+            <p>Sep 2020</p>
+            <p>Awarded National Science Foundation (NSF) STEM Scholarship for academic excellence in pursuing a 
+              degree in Computer Science.
             </p>
           </div>
         </div>
@@ -23,7 +22,7 @@ function Awards() {
           <div className='award-info'>
             <h1 className='award-title'>Dr. Frey Family Foundation Scholarship</h1>
             <p>Dec 2021</p>
-            <p>Recognized for Mathematical Achievements at Suffolk County Community College.</p>
+            <p>Awarded Dr. Frey Family Foundation Scholarship for academic excellence in Mathematics & Computer Science studies.</p>
           </div>
         </div>
     </div>

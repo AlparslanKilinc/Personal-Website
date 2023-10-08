@@ -13,6 +13,7 @@ function Projects() {
           </div>
           <p>Application for creating and playing playlists of YouTube videos.</p>
           <div className="box-options">
+              <a href="https://github.com/AlparslanKilinc/Playlister"><i className="fa-brands fa-github"></i></a>
               <a href="https://playlister.onrender.com/" target="_blank">
                 <i className="material-icons-outlined">visibility</i>
               </a>
@@ -54,31 +55,6 @@ function Projects() {
             <a href="https://alparslankilinc.github.io/Pixel-Sketch/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
           </div>
         </div>
-
-        <div className="box">
-          <div className='project-title'>
-              <i className="material-icons-outlined">star_outline</i>
-              <h3 className='project-text'>Library</h3>
-          </div>
-          <p>Keeps track of the books you have read and are in the progress of reading.</p>
-            <div className="box-options">
-              <a href="https://github.com/AlparslanKilinc/Library" target="_blank"><i className="fa-brands fa-github"></i></a>
-              <a href="https://alparslankilinc.github.io/Library/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
-            </div>
-        </div>
-
-        <div className="box">
-          <div className='project-title'>
-              <i className="material-icons-outlined">star_outline</i>
-              <h3 className='project-text'>Calculator</h3>
-          </div>
-          <p>Calculator That Mimics The Capabilities of Apple Mobile Calculator.</p>
-          <div className="box-options">
-            <a href="https://github.com/AlparslanKilinc/Calculator" target="_blank"><i className="fa-brands fa-github"></i></a>
-            <a href="https://alparslankilinc.github.io/Calculator/" target="_blank"><i className="material-icons-outlined">visibility</i></a>
-          </div>
-        </div>
-
       </div>
     </div>
   )

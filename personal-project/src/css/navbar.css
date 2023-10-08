@@ -4,7 +4,6 @@
     gap: 3rem;
     margin-top: 3rem;
     flex: 0.5;
-    
 }
 .nav-list{
     display: flex;
@@ -34,6 +33,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    width: 700px;
 }
 .intro{
     display: flex;
@@ -45,6 +45,10 @@
     border: 1px solid #f0f3f6;
     border-radius: 4px;
     padding: 2rem;
+}
+.intro-content{
+    text-align: left;
+    line-height: 22px;
 }
 @media screen and (max-width: 800px) {
     .content{

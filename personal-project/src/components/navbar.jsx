@@ -1,9 +1,9 @@
 import '../css/navbar.css'
 import '../css/reset.css'
-import React, { useContext, useEffect,useState } from 'react'
+import React, {useState } from 'react'
 import Projects from '../components/projects.jsx';
 import Education from '../components/education.jsx';
-import AboutMe from '../components/aboutme.jsx';
+import Experience from '../components/experience.jsx';
 import Awards from  '../components/awards.jsx';
 
 function Navbar() {
@@ -20,9 +20,9 @@ function Navbar() {
             setSelect("Education");
             setContent(<Education/>);
             break;
-          case 'About Me':
-            setSelect("About Me");
-            setContent(<AboutMe/>);
+          case 'Experience':
+            setSelect("Experience");
+            setContent(<Experience/>);
             break;
           case 'Awards':
             setSelect("Awards");
@@ -45,20 +45,20 @@ function Navbar() {
             Projects
           </button>
 
+          <button 
+          onClick={()=>{handleButton("Experience")}} 
+          className='nav-button'
+          style={{borderBottom: Select==="Experience" ? '3px solid #ff967d': 'none'}}>
+            <i className="material-icons-outlined">badge</i>
+            Experience
+          </button>
+
           <button
           onClick={()=>{handleButton("Education")}} 
           className='nav-button'
           style={{borderBottom: Select==="Education" ? '3px solid #ff967d': 'none'}}>
             <i className="material-icons-outlined">school</i>
             Education
-          </button>
-
-          <button 
-          onClick={()=>{handleButton("About Me")}} 
-          className='nav-button'
-          style={{borderBottom: Select==="About Me" ? '3px solid #ff967d': 'none'}}>
-            <i className="material-icons-outlined">person</i>
-            About
           </button>
 
           <button 
@@ -70,10 +70,10 @@ function Navbar() {
           </button>
         </li>
         <div className='content'>
-        {Select === "Projects" || Select === "Education" ? 
+        {Select === "Projects" ? 
             <div className='intro'>
                 <p style={{fontSize:'12px'}}>AlparslanKilinc/ README.md</p>
-                <p  style={{fontSize:'16px'}}>
+                <p  className="intro-content" style={{fontSize:'16px'}}>
                   Hi there! I'm Alparslan Kilinc, a computer science student passionate about software development. 
                   I started falling in love with software development when I discovered I could make my ideas come to life. 
                   The idea of creating applications that can touch many people around the world is what makes me pursue this career.
